@@ -1,0 +1,66 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%; /* ลดความกว้างของ formContainer เป็น 80% */
+  align-items: center;
+  border: solid;
+  border-width: 1px;
+  border-color: black; /* สีกรอบ */
+  padding: 15px; /* ลด padding ลง */
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.inputLabel {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.input {
+  height: 40px;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 5px;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.buttonText {
+  color: white;
+  font-size: 18;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signin {
+  font-size: 12px;
+  padding: 10px 20px;
+  align-self: center;
+  text-decoration-line: underline; /* Add underline style */
+}
